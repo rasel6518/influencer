@@ -215,7 +215,8 @@ footer .social {
 
 @media screen and (max-width:576px) {
 
-    .header {
+    .header,
+    .sponsors {
         flex-direction: column;
         gap: 20x;
     }
@@ -224,7 +225,8 @@ footer .social {
         flex-direction: column;
     }
 
-    .banner {
+    .banner,
+    .feature {
         flex-direction: column-reverse;
     }
 
@@ -234,6 +236,9 @@ footer .social {
         height: 100%;
         margin-left: 10px;
 
+        .feature {
+            width: 100%;
+        }
 
 
     }
@@ -267,6 +272,11 @@ footer .social {
 
         margin: 10px 10px 10px 10px;
         gap: 3px;
+    }
+
+    footer {
+        padding: 20px;
+        margin: 0 auto;
     }
 
 }
